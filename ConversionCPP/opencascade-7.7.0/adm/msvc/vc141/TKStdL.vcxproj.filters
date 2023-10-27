@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4D259E1E-18F1-10F4-05EB-6532D2EB8604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{AB92EEE3-02C9-0B53-14F2-DF35DC493D89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdLDrivers">
+      <UniqueIdentifier>{67189A28-0134-0AC3-07DC-4945FD920166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdLPersistent">
+      <UniqueIdentifier>{99E5E2FC-0DBC-0312-1673-30394F027E74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdObjMgt">
+      <UniqueIdentifier>{BC08C1FE-0028-196D-1589-348755A11C21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdLDrivers">
+      <UniqueIdentifier>{3DC207E8-02C6-143B-00CF-CC1A7DDF39C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdLPersistent">
+      <UniqueIdentifier>{4A7E04E9-1233-1499-1116-3AC284B88A14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdObjMgt">
+      <UniqueIdentifier>{7137511E-0BCE-0B2D-03AA-2AF8B22D9FF4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\StdLDrivers\StdLDrivers.cxx">
+      <Filter>Source files\StdLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLDrivers\StdLDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source files\StdLDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_Collection.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_Data.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_Dependency.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_Document.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_HArray1.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_HArray2.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_HString.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_NamedData.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_TreeNode.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdLPersistent\StdLPersistent_Value.cxx">
+      <Filter>Source files\StdLPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdObjMgt\StdObjMgt_Persistent.cxx">
+      <Filter>Source files\StdObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdObjMgt\StdObjMgt_ReadData.cxx">
+      <Filter>Source files\StdObjMgt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdObjMgt\StdObjMgt_WriteData.cxx">
+      <Filter>Source files\StdObjMgt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\StdLDrivers\StdLDrivers.hxx">
+      <Filter>Header files\StdLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLDrivers\StdLDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header files\StdLDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Collection.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Data.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Dependency.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Document.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Function.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_HArray1.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_HArray2.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_HString.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_NamedData.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Real.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_TreeNode.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Value.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Variable.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_Void.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdLPersistent\StdLPersistent_XLink.hxx">
+      <Filter>Header files\StdLPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObjMgt\StdObjMgt_Attribute.hxx">
+      <Filter>Header files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObjMgt\StdObjMgt_MapOfInstantiators.hxx">
+      <Filter>Header files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObjMgt\StdObjMgt_Persistent.hxx">
+      <Filter>Header files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObjMgt\StdObjMgt_ReadData.hxx">
+      <Filter>Header files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObjMgt\StdObjMgt_SharedObject.hxx">
+      <Filter>Header files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObjMgt\StdObjMgt_TransientPersistentMap.hxx">
+      <Filter>Header files\StdObjMgt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObjMgt\StdObjMgt_WriteData.hxx">
+      <Filter>Header files\StdObjMgt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKStdL.rc" />
+  </ItemGroup>
+</Project>

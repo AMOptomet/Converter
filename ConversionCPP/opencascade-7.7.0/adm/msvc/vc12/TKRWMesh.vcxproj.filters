@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{72F1FCE6-0393-170E-0627-28B4E87D13F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{A871870B-0CA9-0E91-0FF6-F2AC2804A4BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\RWGltf">
+      <UniqueIdentifier>{DBAEC61A-1669-0A65-010C-4EC4CB5A009C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\RWMesh">
+      <UniqueIdentifier>{DE3C6AE5-0FD9-0DC1-178A-8721AEB43AC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\RWObj">
+      <UniqueIdentifier>{7F2D23C6-1705-018E-1925-F4FBC8BE0E1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\RWPly">
+      <UniqueIdentifier>{90A64D59-08C7-0EA9-084E-E16C949FA0E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\RWGltf">
+      <UniqueIdentifier>{FCD4612D-02D2-1878-0299-7D0B647701AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\RWMesh">
+      <UniqueIdentifier>{0ECE3670-0464-0175-192B-20F501B553CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\RWObj">
+      <UniqueIdentifier>{91125DA4-01D4-1100-0961-852B06CB972E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\RWPly">
+      <UniqueIdentifier>{3260E807-08D1-148D-17B9-5DE4DC5C4D25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\RWGltf\RWGltf_CafReader.cxx">
+      <Filter>Source files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWGltf\RWGltf_CafWriter.cxx">
+      <Filter>Source files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWGltf\RWGltf_ConfigurationNode.cxx">
+      <Filter>Source files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWGltf\RWGltf_GltfJsonParser.cxx">
+      <Filter>Source files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWGltf\RWGltf_GltfLatePrimitiveArray.cxx">
+      <Filter>Source files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWGltf\RWGltf_GltfMaterialMap.cxx">
+      <Filter>Source files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWGltf\RWGltf_Provider.cxx">
+      <Filter>Source files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWGltf\RWGltf_TriangulationReader.cxx">
+      <Filter>Source files\RWGltf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWMesh\RWMesh.cxx">
+      <Filter>Source files\RWMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWMesh\RWMesh_CafReader.cxx">
+      <Filter>Source files\RWMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWMesh\RWMesh_CoordinateSystemConverter.cxx">
+      <Filter>Source files\RWMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWMesh\RWMesh_FaceIterator.cxx">
+      <Filter>Source files\RWMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWMesh\RWMesh_MaterialMap.cxx">
+      <Filter>Source files\RWMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWMesh\RWMesh_TriangulationReader.cxx">
+      <Filter>Source files\RWMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWMesh\RWMesh_TriangulationSource.cxx">
+      <Filter>Source files\RWMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_CafReader.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_CafWriter.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_ConfigurationNode.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_MtlReader.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_ObjMaterialMap.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_ObjWriterContext.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_Provider.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_Reader.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWObj\RWObj_TriangulationReader.cxx">
+      <Filter>Source files\RWObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWPly\RWPly_CafWriter.cxx">
+      <Filter>Source files\RWPly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWPly\RWPly_ConfigurationNode.cxx">
+      <Filter>Source files\RWPly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWPly\RWPly_PlyWriterContext.cxx">
+      <Filter>Source files\RWPly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWPly\RWPly_Provider.cxx">
+      <Filter>Source files\RWPly</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_CafReader.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_CafWriter.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_ConfigurationNode.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_DracoParameters.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfAccessor.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfAccessorCompType.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfAccessorLayout.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfAlphaMode.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfArrayType.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfBufferView.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfBufferViewTarget.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfFace.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfJsonParser.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfLatePrimitiveArray.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfMaterialMap.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfOStreamWriter.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfPrimArrayData.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfPrimitiveMode.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfRootElement.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_GltfSceneNodeMap.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_MaterialCommon.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_MaterialMetallicRoughness.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_Provider.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_TriangulationReader.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWGltf\RWGltf_WriterTrsfFormat.hxx">
+      <Filter>Header files\RWGltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_CafReader.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_CoordinateSystem.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_CoordinateSystemConverter.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_FaceIterator.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_MaterialMap.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_NameFormat.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_NodeAttributes.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_TriangulationReader.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWMesh\RWMesh_TriangulationSource.hxx">
+      <Filter>Header files\RWMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_CafReader.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_CafWriter.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_ConfigurationNode.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_Material.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_MtlReader.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_ObjMaterialMap.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_ObjWriterContext.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_Provider.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_Reader.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_SubMesh.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_SubMeshReason.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_Tools.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWObj\RWObj_TriangulationReader.hxx">
+      <Filter>Header files\RWObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWPly\RWPly_CafWriter.hxx">
+      <Filter>Header files\RWPly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWPly\RWPly_ConfigurationNode.hxx">
+      <Filter>Header files\RWPly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWPly\RWPly_PlyWriterContext.hxx">
+      <Filter>Header files\RWPly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWPly\RWPly_Provider.hxx">
+      <Filter>Header files\RWPly</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKRWMesh.rc" />
+  </ItemGroup>
+</Project>

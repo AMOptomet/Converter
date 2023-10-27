@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{3FD905AC-1110-177D-0737-EECF7D785615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{5B940565-0557-0C43-16AB-C3E498D4E532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ExpToCasExe">
+      <UniqueIdentifier>{135C8301-0C9A-1483-1781-4644CA4E63DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ExpToCasExe\lex.exptocas.cxx">
+      <Filter>Source files\ExpToCasExe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ExpToCasExe\exptocas.tab.cxx">
+      <Filter>Source files\ExpToCasExe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ExpToCasExe\ExpToCasExe.cxx">
+      <Filter>Source files\ExpToCasExe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExpToCasExe.rc" />
+  </ItemGroup>
+</Project>

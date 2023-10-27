@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{83B6DAF5-0D08-0A30-0EFE-87790B1BC279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{7C9C24EE-1560-13C6-1285-C7B1113A07CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TObjDRAW">
+      <UniqueIdentifier>{D6865340-05A7-1956-11C0-DFA724565C1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TObjDRAW">
+      <UniqueIdentifier>{B9E6783C-0EBD-0AD2-0618-7D8297088D65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\TObjDRAW\TObjDRAW.cxx">
+      <Filter>Source files\TObjDRAW</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\TObjDRAW\TObjDRAW.hxx">
+      <Filter>Header files\TObjDRAW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKTObjDRAW.rc" />
+  </ItemGroup>
+</Project>

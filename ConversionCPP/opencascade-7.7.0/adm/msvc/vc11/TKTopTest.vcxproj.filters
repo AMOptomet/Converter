@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{0B87E250-0FD2-0AA5-044F-C79161199987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{AE8CE46A-1393-0A7B-0F7F-0FB8FA393B2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepTest">
+      <UniqueIdentifier>{5BD096CD-135B-002B-024F-C75A47F7EFD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GeometryTest">
+      <UniqueIdentifier>{A1AF75A0-042D-00E3-054A-1447B870B770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HLRTest">
+      <UniqueIdentifier>{1B47EFE0-0B21-07AC-0BA6-7A21C8401150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MeshTest">
+      <UniqueIdentifier>{30B70353-0306-1395-0333-8C9204C6575B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GeomliteTest">
+      <UniqueIdentifier>{911BDD2B-0CB8-1984-0699-65987FFEDC6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DrawFairCurve">
+      <UniqueIdentifier>{38D582D4-0D4C-14E1-18A5-F5CD7C85A07D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BOPTest">
+      <UniqueIdentifier>{EB8874C4-1007-1973-0AD1-0DC361963497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SWDRAW">
+      <UniqueIdentifier>{56CFDD06-0004-131B-13B2-C0F3ACBDC1E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepTest">
+      <UniqueIdentifier>{052F5466-17B3-017D-0607-52D13B26888D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GeometryTest">
+      <UniqueIdentifier>{CF1D94B9-0C28-0F6A-02F1-8F81C7915CBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HLRTest">
+      <UniqueIdentifier>{5EBECED4-0C6A-09D0-0BDC-13694F66DB38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MeshTest">
+      <UniqueIdentifier>{C2460C18-1818-17E8-10CD-B0C23B9FE8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GeomliteTest">
+      <UniqueIdentifier>{6B3EC59E-012A-0A48-0870-48BE6ECE66FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DrawFairCurve">
+      <UniqueIdentifier>{CB9FBF56-048F-1488-0E75-F47429F648DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BOPTest">
+      <UniqueIdentifier>{29225B58-1954-029C-0EBC-CB56388988E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SWDRAW">
+      <UniqueIdentifier>{7A2DEEB5-0A86-1153-0AEA-2AE52D2C2E11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_BasicCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_ChamferCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_CheckCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_CurveCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_DraftAngleCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_DrawableHistory.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_ExtremaCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_FeatureCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_Fillet2DCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_FilletCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_FillingCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_GPropCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_HistoryCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_MatCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_Objects.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_OtherCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_PrimitiveCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_ProjectionCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_SurfaceCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_SweepCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTest\BRepTest_TopologyCommands.cxx">
+      <Filter>Source files\BRepTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_APICommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_ConstraintCommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_ContinuityCommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_CurveCommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_CurveTanCommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_DrawableQualifiedCurve2d.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_FairCurveCommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_PolyCommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_SurfaceCommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeometryTest\GeometryTest_TestProjCommands.cxx">
+      <Filter>Source files\GeometryTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HLRTest\HLRTest.cxx">
+      <Filter>Source files\HLRTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HLRTest\HLRTest_DrawableEdgeTool.cxx">
+      <Filter>Source files\HLRTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HLRTest\HLRTest_DrawablePolyEdgeTool.cxx">
+      <Filter>Source files\HLRTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HLRTest\HLRTest_OutLiner.cxx">
+      <Filter>Source files\HLRTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HLRTest\HLRTest_Projector.cxx">
+      <Filter>Source files\HLRTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\HLRTest\HLRTest_ShapeData.cxx">
+      <Filter>Source files\HLRTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshTest\MeshTest.cxx">
+      <Filter>Source files\MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshTest\MeshTest_CheckTopology.cxx">
+      <Filter>Source files\MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshTest\MeshTest_Debug.cxx">
+      <Filter>Source files\MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshTest\MeshTest_PluginCommands.cxx">
+      <Filter>Source files\MeshTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomliteTest\GeomliteTest.cxx">
+      <Filter>Source files\GeomliteTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomliteTest\GeomliteTest_API2dCommands.cxx">
+      <Filter>Source files\GeomliteTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomliteTest\GeomliteTest_ApproxCommands.cxx">
+      <Filter>Source files\GeomliteTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomliteTest\GeomliteTest_CurveCommands.cxx">
+      <Filter>Source files\GeomliteTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomliteTest\GeomliteTest_ModificationCommands.cxx">
+      <Filter>Source files\GeomliteTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomliteTest\GeomliteTest_SurfaceCommands.cxx">
+      <Filter>Source files\GeomliteTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawFairCurve\DrawFairCurve_Batten.cxx">
+      <Filter>Source files\DrawFairCurve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawFairCurve\DrawFairCurve_MinimalVariation.cxx">
+      <Filter>Source files\DrawFairCurve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_APICommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_BOPCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_CellsCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_CheckCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_DebugCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_DrawableShape.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_LowCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_MkConnectedCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_ObjCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_Objects.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_OptionCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_PartitionCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_PeriodicityCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_RemoveFeaturesCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_TolerCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BOPTest\BOPTest_UtilityCommands.cxx">
+      <Filter>Source files\BOPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW_ShapeAnalysis.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW_ShapeCustom.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW_ShapeExtend.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW_ShapeFix.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW_ShapeProcess.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW_ShapeProcessAPI.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW_ShapeTool.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SWDRAW\SWDRAW_ShapeUpgrade.cxx">
+      <Filter>Source files\SWDRAW</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\BRepTest\BRepTest.hxx">
+      <Filter>Header files\BRepTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTest\BRepTest_DrawableHistory.hxx">
+      <Filter>Header files\BRepTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTest\BRepTest_Objects.hxx">
+      <Filter>Header files\BRepTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeometryTest\GeometryTest.hxx">
+      <Filter>Header files\GeometryTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeometryTest\GeometryTest_DrawableQualifiedCurve2d.hxx">
+      <Filter>Header files\GeometryTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest.hxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest_DrawableEdgeTool.hxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest_DrawablePolyEdgeTool.hxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest_DrawablePolyEdgeTool.lxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest_OutLiner.hxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest_OutLiner.lxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest_Projector.hxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest_ShapeData.hxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\HLRTest\HLRTest_ShapeData.lxx">
+      <Filter>Header files\HLRTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshTest\MeshTest.hxx">
+      <Filter>Header files\MeshTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshTest\MeshTest_CheckTopology.hxx">
+      <Filter>Header files\MeshTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomliteTest\GeomliteTest.hxx">
+      <Filter>Header files\GeomliteTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawFairCurve\DrawFairCurve_Batten.hxx">
+      <Filter>Header files\DrawFairCurve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawFairCurve\DrawFairCurve_MinimalVariation.hxx">
+      <Filter>Header files\DrawFairCurve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BOPTest\BOPTest.hxx">
+      <Filter>Header files\BOPTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BOPTest\BOPTest_DrawableShape.hxx">
+      <Filter>Header files\BOPTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BOPTest\BOPTest_Objects.hxx">
+      <Filter>Header files\BOPTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW_ShapeAnalysis.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW_ShapeCustom.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW_ShapeExtend.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW_ShapeFix.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW_ShapeProcess.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW_ShapeProcessAPI.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW_ShapeTool.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SWDRAW\SWDRAW_ShapeUpgrade.hxx">
+      <Filter>Header files\SWDRAW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKTopTest.rc" />
+  </ItemGroup>
+</Project>

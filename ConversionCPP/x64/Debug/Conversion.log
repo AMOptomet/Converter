@@ -1,0 +1,5 @@
+﻿  Conversion.cpp
+C:\NewConverter\ConversionCPP\Conversion.h(8,1): warning C4275: non dll-interface class 'ConvertInterface' used as base for dll-interface class 'Conversions'
+C:\NewConverter\ConversionCPP\ConversionInterface.h(6): message : see declaration of 'ConvertInterface'
+C:\NewConverter\ConversionCPP\Conversion.h(7): message : see declaration of 'Conversions'
+  Conversion.vcxproj -> C:\NewConverter\x64\Debug\Conversion.dll

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{5E611873-0BA2-12E7-0813-7DE2258A0278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{A8268277-071A-1705-1329-843581D4A86A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DEBRepCascade">
+      <UniqueIdentifier>{7CFC6779-1066-08F5-1931-C5EB17CD5F82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DEXCAFCascade">
+      <UniqueIdentifier>{397EE41B-0E11-04DA-0918-ED28FE1E4EA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DEBRepCascade">
+      <UniqueIdentifier>{BC95BF40-0902-00AB-05CD-8A32B40704BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DEXCAFCascade">
+      <UniqueIdentifier>{C7DBE313-03A2-0E63-0DB7-DE4B0D11633D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.cxx">
+      <Filter>Source files\DEBRepCascade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DEBRepCascade\DEBRepCascade_Provider.cxx">
+      <Filter>Source files\DEBRepCascade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.cxx">
+      <Filter>Source files\DEXCAFCascade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DEXCAFCascade\DEXCAFCascade_Provider.cxx">
+      <Filter>Source files\DEXCAFCascade</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\DEBRepCascade\DEBRepCascade_ConfigurationNode.hxx">
+      <Filter>Header files\DEBRepCascade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DEBRepCascade\DEBRepCascade_Provider.hxx">
+      <Filter>Header files\DEBRepCascade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DEXCAFCascade\DEXCAFCascade_ConfigurationNode.hxx">
+      <Filter>Header files\DEXCAFCascade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DEXCAFCascade\DEXCAFCascade_Provider.hxx">
+      <Filter>Header files\DEXCAFCascade</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXDECascade.rc" />
+  </ItemGroup>
+</Project>

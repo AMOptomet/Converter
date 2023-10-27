@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{DC025E01-0C2E-116F-0D46-65FFE1821F72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{DE8817BB-0CE3-044C-151E-1A10712D737C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StlAPI">
+      <UniqueIdentifier>{F8F5E2AD-140B-129C-1351-1F8437216621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\RWStl">
+      <UniqueIdentifier>{B80D6AB7-0CF3-0330-1126-568AA4A821FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StlAPI">
+      <UniqueIdentifier>{4EE6133E-06EE-1814-019F-511A87A4CEAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\RWStl">
+      <UniqueIdentifier>{FCADB88F-0D18-151C-1218-10F1A86988A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\StlAPI\StlAPI.cxx">
+      <Filter>Source files\StlAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StlAPI\StlAPI_Reader.cxx">
+      <Filter>Source files\StlAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StlAPI\StlAPI_Writer.cxx">
+      <Filter>Source files\StlAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWStl\RWStl.cxx">
+      <Filter>Source files\RWStl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWStl\RWStl_ConfigurationNode.cxx">
+      <Filter>Source files\RWStl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWStl\RWStl_Provider.cxx">
+      <Filter>Source files\RWStl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\RWStl\RWStl_Reader.cxx">
+      <Filter>Source files\RWStl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\StlAPI\StlAPI.hxx">
+      <Filter>Header files\StlAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StlAPI\StlAPI_Reader.hxx">
+      <Filter>Header files\StlAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StlAPI\StlAPI_Writer.hxx">
+      <Filter>Header files\StlAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWStl\RWStl.hxx">
+      <Filter>Header files\RWStl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWStl\RWStl_ConfigurationNode.hxx">
+      <Filter>Header files\RWStl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWStl\RWStl_Provider.hxx">
+      <Filter>Header files\RWStl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\RWStl\RWStl_Reader.hxx">
+      <Filter>Header files\RWStl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKSTL.rc" />
+  </ItemGroup>
+</Project>

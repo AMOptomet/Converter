@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{DA6E76C8-11CD-1171-040E-BC0C3FC804AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{AB50F014-1070-05A6-0C4A-79D1C0B9A778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BinDrivers">
+      <UniqueIdentifier>{A1E8E47C-134F-0D2B-0C91-A4D0696EC44B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BinMDataXtd">
+      <UniqueIdentifier>{193147BF-12ED-01E0-069D-461937218FF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BinMNaming">
+      <UniqueIdentifier>{734553BC-1035-125F-1421-B34B360EF3B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BinDrivers">
+      <UniqueIdentifier>{A2E7D6D2-1480-0A52-149D-39AB140EB3CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BinMDataXtd">
+      <UniqueIdentifier>{3E94CBC9-13A5-09E3-10F1-78A1ACBE46D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BinMNaming">
+      <UniqueIdentifier>{1C84CD55-157E-1375-0413-167CF164D085}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\BinDrivers\BinDrivers.cxx">
+      <Filter>Source files\BinDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinDrivers\BinDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source files\BinDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinDrivers\BinDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source files\BinDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMDataXtd\BinMDataXtd.cxx">
+      <Filter>Source files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMDataXtd\BinMDataXtd_ConstraintDriver.cxx">
+      <Filter>Source files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMDataXtd\BinMDataXtd_GeometryDriver.cxx">
+      <Filter>Source files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMDataXtd\BinMDataXtd_PatternStdDriver.cxx">
+      <Filter>Source files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMDataXtd\BinMDataXtd_PositionDriver.cxx">
+      <Filter>Source files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMDataXtd\BinMDataXtd_PresentationDriver.cxx">
+      <Filter>Source files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMDataXtd\BinMDataXtd_TriangulationDriver.cxx">
+      <Filter>Source files\BinMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMNaming\BinMNaming.cxx">
+      <Filter>Source files\BinMNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMNaming\BinMNaming_NamedShapeDriver.cxx">
+      <Filter>Source files\BinMNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinMNaming\BinMNaming_NamingDriver.cxx">
+      <Filter>Source files\BinMNaming</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\BinDrivers\BinDrivers.hxx">
+      <Filter>Header files\BinDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinDrivers\BinDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header files\BinDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinDrivers\BinDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header files\BinDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinDrivers\BinDrivers_Marker.hxx">
+      <Filter>Header files\BinDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMDataXtd\BinMDataXtd.hxx">
+      <Filter>Header files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMDataXtd\BinMDataXtd_ConstraintDriver.hxx">
+      <Filter>Header files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMDataXtd\BinMDataXtd_GeometryDriver.hxx">
+      <Filter>Header files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMDataXtd\BinMDataXtd_PatternStdDriver.hxx">
+      <Filter>Header files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMDataXtd\BinMDataXtd_PositionDriver.hxx">
+      <Filter>Header files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMDataXtd\BinMDataXtd_PresentationDriver.hxx">
+      <Filter>Header files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMDataXtd\BinMDataXtd_TriangulationDriver.hxx">
+      <Filter>Header files\BinMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMNaming\BinMNaming.hxx">
+      <Filter>Header files\BinMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMNaming\BinMNaming_NamedShapeDriver.hxx">
+      <Filter>Header files\BinMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMNaming\BinMNaming_NamedShapeDriver.lxx">
+      <Filter>Header files\BinMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinMNaming\BinMNaming_NamingDriver.hxx">
+      <Filter>Header files\BinMNaming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKBin.rc" />
+  </ItemGroup>
+</Project>

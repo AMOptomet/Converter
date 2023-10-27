@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{431E18F6-0DD7-1768-1581-ECBF730D5694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{AF4A1222-1891-02EC-14EF-06CD8CA0CEF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BinTObjDrivers">
+      <UniqueIdentifier>{73B9F02B-1099-0E0C-118C-952F254A27F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BinTObjDrivers">
+      <UniqueIdentifier>{8668CAC4-0C7A-0B78-08E4-EA734134B890}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers.cxx">
+      <Filter>Source files\BinTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source files\BinTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source files\BinTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_IntSparseArrayDriver.cxx">
+      <Filter>Source files\BinTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_ModelDriver.cxx">
+      <Filter>Source files\BinTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_ObjectDriver.cxx">
+      <Filter>Source files\BinTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_ReferenceDriver.cxx">
+      <Filter>Source files\BinTObjDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_XYZDriver.cxx">
+      <Filter>Source files\BinTObjDrivers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers.hxx">
+      <Filter>Header files\BinTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header files\BinTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header files\BinTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_IntSparseArrayDriver.hxx">
+      <Filter>Header files\BinTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_ModelDriver.hxx">
+      <Filter>Header files\BinTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_ObjectDriver.hxx">
+      <Filter>Header files\BinTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_ReferenceDriver.hxx">
+      <Filter>Header files\BinTObjDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BinTObjDrivers\BinTObjDrivers_XYZDriver.hxx">
+      <Filter>Header files\BinTObjDrivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKBinTObj.rc" />
+  </ItemGroup>
+</Project>

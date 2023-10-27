@@ -1,0 +1,7 @@
+﻿  ManagedLayer.cpp
+C:\NewConverter\ConversionCPP\Conversion.h(8,1): warning C4275: non dll-interface class 'ConvertInterface' used as base for dll-interface class 'Conversions'
+C:\NewConverter\ManagedLayer\ManagedLayer.h(9): message : see declaration of 'ConvertInterface'
+C:\NewConverter\ConversionCPP\Conversion.h(7): message : see declaration of 'Conversions'
+  ManagedLayer.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  ManagedLayer.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ManagedLayer.vcxproj -> C:\NewConverter\x64\Debug\ManagedLayer.dll

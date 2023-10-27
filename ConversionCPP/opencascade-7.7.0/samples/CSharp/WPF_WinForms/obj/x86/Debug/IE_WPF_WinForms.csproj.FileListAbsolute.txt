@@ -1,0 +1,10 @@
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\IE_WPF_WinForms.csprojAssemblyReference.cache
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\MaterialDlg.baml
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\Simple Styles.baml
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\App.baml
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\About.g.cs
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\MaterialDlg.g.cs
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\MainWindow.g.cs
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\App.g.cs
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\IE_WPF_WinForms_MarkupCompile.cache
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WPF_WinForms\obj\x86\Debug\IE_WPF_WinForms_MarkupCompile.lref

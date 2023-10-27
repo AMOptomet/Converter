@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{B4A30BE3-0DC0-121A-0EE0-8FF3ABC68234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{8E343840-17B6-0044-1374-2320B9396331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DE">
+      <UniqueIdentifier>{9F3EB30C-1345-151F-030D-025B18AAA80D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DE">
+      <UniqueIdentifier>{FEFCB258-070E-1133-022C-3B479FDB4A9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\DE\DE_ConfigurationContext.cxx">
+      <Filter>Source files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DE\DE_ConfigurationNode.cxx">
+      <Filter>Source files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DE\DE_Provider.cxx">
+      <Filter>Source files\DE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DE\DE_Wrapper.cxx">
+      <Filter>Source files\DE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\DE\DE_ConfigurationContext.hxx">
+      <Filter>Header files\DE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DE\DE_ConfigurationNode.hxx">
+      <Filter>Header files\DE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DE\DE_Provider.hxx">
+      <Filter>Header files\DE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DE\DE_Wrapper.hxx">
+      <Filter>Header files\DE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXDE.rc" />
+  </ItemGroup>
+</Project>

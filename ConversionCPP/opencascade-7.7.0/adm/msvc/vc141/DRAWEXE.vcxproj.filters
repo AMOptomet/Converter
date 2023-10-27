@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{00765385-0E91-0F75-0CA2-EF13ADF4DCFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{D7D97BC0-1503-1265-12EB-68FB123B5F91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DRAWEXE">
+      <UniqueIdentifier>{FF4F2D4A-00E3-0643-07AC-A3278E7A1D19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\DRAWEXE\DRAWEXE.cxx">
+      <Filter>Source files\DRAWEXE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DRAWEXE.rc" />
+  </ItemGroup>
+</Project>

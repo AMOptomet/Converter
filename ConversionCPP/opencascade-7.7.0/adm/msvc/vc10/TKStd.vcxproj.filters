@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{34CBDFF3-0303-18B4-007B-45AD186728C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{A467EBEA-0EC6-072C-10D7-C3D9F81B4C90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdDrivers">
+      <UniqueIdentifier>{3FA14797-11A2-1726-1228-47AEF9306859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdObject">
+      <UniqueIdentifier>{12B5ED36-13BE-0C2F-0CB8-6708D7759985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdPersistent">
+      <UniqueIdentifier>{B219AC0B-004A-0C13-1075-BFD15347CA13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdStorage">
+      <UniqueIdentifier>{23A9A445-0BBF-0C4B-1863-6C32906BC38C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ShapePersistent">
+      <UniqueIdentifier>{F336B3C8-10E5-0A97-11E9-4051178BEEE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdDrivers">
+      <UniqueIdentifier>{F05B19CE-0597-157F-0369-456A3F427EF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdObject">
+      <UniqueIdentifier>{9D6C8363-0F84-0062-0117-36FB2AA3BE84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdPersistent">
+      <UniqueIdentifier>{3103D4EF-065E-1843-0C65-0AE22A865BF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdStorage">
+      <UniqueIdentifier>{FE14673E-088E-08E9-09E1-2C10ACFA9F44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ShapePersistent">
+      <UniqueIdentifier>{EE62CB59-1116-0086-1441-89271C66B598}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\StdDrivers\StdDrivers.cxx">
+      <Filter>Source files\StdDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdDrivers\StdDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source files\StdDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdObject\StdObject_Location.cxx">
+      <Filter>Source files\StdObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdObject\StdObject_Shape.cxx">
+      <Filter>Source files\StdObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPersistent\StdPersistent.cxx">
+      <Filter>Source files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPersistent\StdPersistent_DataXtd.cxx">
+      <Filter>Source files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPersistent\StdPersistent_DataXtd_Constraint.cxx">
+      <Filter>Source files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPersistent\StdPersistent_DataXtd_PatternStd.cxx">
+      <Filter>Source files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPersistent\StdPersistent_Naming.cxx">
+      <Filter>Source files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPersistent\StdPersistent_PPrsStd.cxx">
+      <Filter>Source files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPersistent\StdPersistent_TopLoc.cxx">
+      <Filter>Source files\StdPersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdStorage\StdStorage.cxx">
+      <Filter>Source files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdStorage\StdStorage_BacketOfPersistent.cxx">
+      <Filter>Source files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdStorage\StdStorage_Data.cxx">
+      <Filter>Source files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdStorage\StdStorage_HeaderData.cxx">
+      <Filter>Source files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdStorage\StdStorage_Root.cxx">
+      <Filter>Source files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdStorage\StdStorage_RootData.cxx">
+      <Filter>Source files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdStorage\StdStorage_TypeData.cxx">
+      <Filter>Source files\StdStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_BRep.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom2d.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom2d_Curve.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom_Curve.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom_Surface.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_HSequence.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_Poly.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ShapePersistent\ShapePersistent_TopoDS.cxx">
+      <Filter>Source files\ShapePersistent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\StdDrivers\StdDrivers.hxx">
+      <Filter>Header files\StdDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdDrivers\StdDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header files\StdDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObject\StdObject_Location.hxx">
+      <Filter>Header files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObject\StdObject_Shape.hxx">
+      <Filter>Header files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObject\StdObject_gp_Axes.hxx">
+      <Filter>Header files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObject\StdObject_gp_Curves.hxx">
+      <Filter>Header files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObject\StdObject_gp_Surfaces.hxx">
+      <Filter>Header files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObject\StdObject_gp_Trsfs.hxx">
+      <Filter>Header files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdObject\StdObject_gp_Vectors.hxx">
+      <Filter>Header files\StdObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent_DataXtd.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent_DataXtd_Constraint.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent_DataXtd_PatternStd.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent_HArray1.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent_Naming.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent_PPrsStd.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent_TopLoc.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPersistent\StdPersistent_TopoDS.hxx">
+      <Filter>Header files\StdPersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_BacketOfPersistent.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_Data.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_HSequenceOfRoots.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_HeaderData.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_MapOfRoots.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_MapOfTypes.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_Root.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_RootData.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_SequenceOfRoots.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdStorage\StdStorage_TypeData.hxx">
+      <Filter>Header files\StdStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_BRep.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom2d.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom2d_Curve.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom_Curve.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_Geom_Surface.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_HArray1.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_HArray2.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_HSequence.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_Poly.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_TopoDS.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ShapePersistent\ShapePersistent_TriangleMode.hxx">
+      <Filter>Header files\ShapePersistent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKStd.rc" />
+  </ItemGroup>
+</Project>

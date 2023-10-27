@@ -1,0 +1,8 @@
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WinForms\obj\x86\Debug\IE_WinForms.csprojAssemblyReference.cache
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WinForms\obj\x86\Debug\IE_WinForms.AboutDialog.resources
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WinForms\obj\x86\Debug\IE_WinForms.Form1.resources
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WinForms\obj\x86\Debug\IE_WinForms.Form2.resources
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WinForms\obj\x86\Debug\IE_WinForms.MaterialDialog.resources
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WinForms\obj\x86\Debug\IE_WinForms.TransparencyDialog.resources
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WinForms\obj\x86\Debug\IE_WinForms.csproj.GenerateResource.cache
+C:\OpenCASCADE-7.7.0-vc14-64\opencascade-7.7.0\samples\CSharp\WinForms\obj\x86\Debug\IE_WinForms.csproj.CoreCompileInputs.cache

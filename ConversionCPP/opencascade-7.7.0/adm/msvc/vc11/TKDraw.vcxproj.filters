@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{CA5BA6C4-00A6-0AA5-0469-AE1415A88413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{772E8298-0BE1-1905-1256-638FF9813405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Draw">
+      <UniqueIdentifier>{7E41DB31-01D5-085B-1655-2894A536DF48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DBRep">
+      <UniqueIdentifier>{7D062231-10A2-04FC-0728-28118796C795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DrawTrSurf">
+      <UniqueIdentifier>{0942FFA0-0D08-1755-1643-C60869522D12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Draw">
+      <UniqueIdentifier>{0D2FC9CB-16EE-0DE3-0E91-804335BC8646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DBRep">
+      <UniqueIdentifier>{13998A0C-06C1-0691-07F3-D4006D6806FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DrawTrSurf">
+      <UniqueIdentifier>{A33C10CB-1361-0B60-0F82-F95B5EDD9798}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Draw\Draw.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Axis2D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Axis3D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_BasicCommands.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Box.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Chronometer.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Circle2D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Circle3D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Color.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Commands.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Debug.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Display.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Drawable2D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Drawable3D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_GraphicCommands.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Grid.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Interpretor.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Main.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Marker2D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Marker3D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_MessageCommands.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Number.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_PloadCommands.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Printer.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_ProgressIndicator.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Segment2D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Segment3D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Text2D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Text3D.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_UnitCommands.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_VariableCommands.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_View.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Viewer.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_WNTCommandWindow.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_WNTInit.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_WNTMainWindow.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Draw\Draw_Window.cxx">
+      <Filter>Source files\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DBRep\DBRep.cxx">
+      <Filter>Source files\DBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DBRep\DBRep_Debug.cxx">
+      <Filter>Source files\DBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DBRep\DBRep_DrawableShape.cxx">
+      <Filter>Source files\DBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DBRep\DBRep_Edge.cxx">
+      <Filter>Source files\DBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DBRep\DBRep_Face.cxx">
+      <Filter>Source files\DBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DBRep\DBRep_HideData.cxx">
+      <Filter>Source files\DBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DBRep\DBRep_IsoBuilder.cxx">
+      <Filter>Source files\DBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BSplineCurve.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BSplineCurve2d.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BSplineSurface.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BezierCurve.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BezierCurve2d.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BezierSurface.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Curve.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Curve2d.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Debug.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Drawable.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Point.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Polygon2D.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Polygon3D.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Surface.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Triangulation.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Triangulation2D.cxx">
+      <Filter>Source files\DrawTrSurf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Draw\Draw.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Appli.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Axis2D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Axis3D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Box.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Chronometer.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Circle2D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Circle3D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Color.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_ColorKind.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Display.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Drawable2D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Drawable3D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Failure.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Grid.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Grid.lxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Interpretor.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Main.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_MapOfAsciiString.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Marker2D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Marker3D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_MarkerShape.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Number.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_PInterp.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_PluginMacro.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Printer.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_ProgressIndicator.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Segment2D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Segment3D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_SequenceOfDrawable3D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Text2D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Text3D.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_View.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Viewer.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_WNTCommandWindow.pxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_WNTInit.pxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_WNTMainWindow.pxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_WNTRessource.pxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Window.hxx">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Draw\Draw_Window_1.mm">
+      <Filter>Header files\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_DrawableShape.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_Edge.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_Edge.lxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_Face.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_Face.lxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_HideData.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_IsoBuilder.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_ListIteratorOfListOfEdge.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_ListIteratorOfListOfFace.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_ListIteratorOfListOfHideData.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_ListOfEdge.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_ListOfFace.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_ListOfHideData.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DBRep\DBRep_Params.hxx">
+      <Filter>Header files\DBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BSplineCurve.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BSplineCurve2d.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BSplineSurface.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BezierCurve.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BezierCurve2d.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_BezierSurface.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Curve.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Curve2d.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Drawable.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Params.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Point.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Polygon2D.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Polygon3D.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Surface.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Triangulation.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DrawTrSurf\DrawTrSurf_Triangulation2D.hxx">
+      <Filter>Header files\DrawTrSurf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKDraw.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{952DA4BE-0B58-0EA6-0A5E-B1C9AB2F1079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{E29F0243-0096-192D-0AD0-50488ECB87B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XmlDrivers">
+      <UniqueIdentifier>{3B8A45AF-0383-08AF-110E-28E30C5250EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XmlMDataXtd">
+      <UniqueIdentifier>{3E6306DD-1171-0018-116D-5989965805B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XmlMNaming">
+      <UniqueIdentifier>{DE972B69-0255-0519-1020-177473DE6696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XmlDrivers">
+      <UniqueIdentifier>{21426928-13DC-020F-0108-2F453167A686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XmlMDataXtd">
+      <UniqueIdentifier>{E5B5786E-061B-031F-178A-EC58D0BAE180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XmlMNaming">
+      <UniqueIdentifier>{2A9C69C8-060C-0B43-0EEF-D84076703008}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\XmlDrivers\XmlDrivers.cxx">
+      <Filter>Source files\XmlDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlDrivers\XmlDrivers_DocumentRetrievalDriver.cxx">
+      <Filter>Source files\XmlDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlDrivers\XmlDrivers_DocumentStorageDriver.cxx">
+      <Filter>Source files\XmlDrivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd.cxx">
+      <Filter>Source files\XmlMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_ConstraintDriver.cxx">
+      <Filter>Source files\XmlMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_GeometryDriver.cxx">
+      <Filter>Source files\XmlMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_PatternStdDriver.cxx">
+      <Filter>Source files\XmlMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_PositionDriver.cxx">
+      <Filter>Source files\XmlMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_PresentationDriver.cxx">
+      <Filter>Source files\XmlMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_TriangulationDriver.cxx">
+      <Filter>Source files\XmlMDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMNaming\XmlMNaming.cxx">
+      <Filter>Source files\XmlMNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMNaming\XmlMNaming_NamedShapeDriver.cxx">
+      <Filter>Source files\XmlMNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMNaming\XmlMNaming_NamingDriver.cxx">
+      <Filter>Source files\XmlMNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\XmlMNaming\XmlMNaming_Shape1.cxx">
+      <Filter>Source files\XmlMNaming</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\XmlDrivers\XmlDrivers.hxx">
+      <Filter>Header files\XmlDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlDrivers\XmlDrivers_DocumentRetrievalDriver.hxx">
+      <Filter>Header files\XmlDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlDrivers\XmlDrivers_DocumentStorageDriver.hxx">
+      <Filter>Header files\XmlDrivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd.hxx">
+      <Filter>Header files\XmlMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_ConstraintDriver.hxx">
+      <Filter>Header files\XmlMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_GeometryDriver.hxx">
+      <Filter>Header files\XmlMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_PatternStdDriver.hxx">
+      <Filter>Header files\XmlMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_PositionDriver.hxx">
+      <Filter>Header files\XmlMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_PresentationDriver.hxx">
+      <Filter>Header files\XmlMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMDataXtd\XmlMDataXtd_TriangulationDriver.hxx">
+      <Filter>Header files\XmlMDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMNaming\XmlMNaming.hxx">
+      <Filter>Header files\XmlMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMNaming\XmlMNaming_NamedShapeDriver.hxx">
+      <Filter>Header files\XmlMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMNaming\XmlMNaming_NamedShapeDriver.lxx">
+      <Filter>Header files\XmlMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMNaming\XmlMNaming_NamingDriver.hxx">
+      <Filter>Header files\XmlMNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\XmlMNaming\XmlMNaming_Shape1.hxx">
+      <Filter>Header files\XmlMNaming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXml.rc" />
+  </ItemGroup>
+</Project>
